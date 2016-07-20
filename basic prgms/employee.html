@@ -1,0 +1,247 @@
+function emp()
+{
+  
+var choice=document.getElementById("ch").value;
+  
+var employee=[];
+var n=20;
+var count=0;
+employee[0]={
+  name:"George",
+  age:22,
+  designation:"intern",
+  location:"Ganga",
+  salary:16000,
+  reporting_person:"Nishin"
+};
+employee[1]={
+  name:"Alex",
+  age:22,
+  designation:"intern",
+  location:"Ganga",
+  salary:16000,
+  reporting_person:"Nishin"
+};
+employee[2]={
+  name:"Henry",
+  age:23,
+  designation:"intern",
+  location:"Ganga",
+  salary:16000,
+  reporting_person:"Nishin"
+};
+employee[3]=
+  {name:"Leo",
+   age:22,
+   designation:"intern",
+   location:"Ganga",
+   salary:16000,
+   reporting_person:"Nishin"
+  };
+employee[4]={
+  name:"Arun",
+  age:22,
+  designation:"intern",
+  location:"Ganga",
+  salary:16000,
+  reporting_person:"Nishin"};
+employee[5]={
+  name:"Nishin",
+  age:30,
+  designation:"Tech Lead",
+  location:"Ganga",
+  salary:70000,
+  reporting_person:"Ansar"
+};
+employee[6]={
+  name:"Bindu",
+  age:32,
+  designation:"Trainer",
+  location:"Vazhuthacaud",
+  salary:60000,
+  reporting_person:"Mahesh"
+};
+employee[7]={
+  name:"Kavya",
+  age:28,
+  designation:"HR",
+  location:"vazhuthacaud",
+  salary:60000,
+  reporting_person:"Mahesh"
+};
+employee[8]={
+  name:"Sharon",
+  age:26,
+  designation:"Manager",
+  location:"Thejas",
+  salary:50000,
+  reporting_person:"Shiva"
+};
+employee[9]={
+  name:"Parvathy",
+  age:26,
+  designation:"Quality Assurance",
+  location:"Thejas",
+  salary:40000,
+  reporting_person:"Yukta"
+};
+employee[10]={
+  name:"Joseph",
+  age:37,
+  designation:"Project Manager",
+  location:"Thejas",
+  salary:70000,
+  reporting_person:"Ansar"
+};
+employee[11]={
+  name:"Sreedevi",
+  age:23,
+  designation:"intern",
+  location:"Vazhuthacaud",
+  salary:15000,
+  reporting_person:"Nithin"
+};
+employee[12]={
+  name:"Rythy",
+  age:24,
+  designation:"Developer",
+  location:"Vazhuthacaud",
+  salary:35000,
+  reporting_person:"Sam"
+};
+employee[13]={
+  name:"Krishna",
+  age:24,
+  designation:"Senior Engineer",
+  location:"Vazhuthacaud",
+  salary:80000,
+  reporting_person:"Ansar"
+};
+employee[14]={
+  name:"Job",
+  age:28,
+  designation:"Quality Assurance",
+  location:"Ganga",
+  salary:60000,
+  reporting_person:"Yukta"
+};
+employee[15]={
+  name:"Mythry",
+  age:30,
+  designation:"Trainer",
+  location:"Ganga",
+  salary:60000,
+  reporting_person:"Mahesh"
+};
+employee[16]={
+  name:"Tom",
+  age:24,
+  designation:"HR",
+  location:"Ganga",
+  salary:45000,
+  reporting_person:"Mahesh"
+};
+employee[17]={
+  name:"Geeta",
+  age:32,
+  designation:"Business Analyst",
+  location:"Ganga",
+  salary:60000,
+  reporting_person:"Shiva"
+};
+employee[18]={
+  name:"Kiran",
+  age:45,
+  designation:"Manager",
+  location:"Ganga",
+  salary:55000,
+  reporting_person:"Hari"
+};
+employee[19]={
+  name:"Anamika",
+  age:22,
+  designation:"Senior Engineer",
+  location:"Ganga",
+  salary:50000,
+  reporting_person:"Ron"
+};
+
+
+switch(choice)
+{
+    
+case "1":
+    for(var i=0;i<n;i++)
+         {
+            document.write("<br><br>"+employee[i].name+"            <br>&nbsp&nbsp&nbspAge:"+employee[i].age+"<br>&nbsp&nbsp&nbspDesignation:"+employee[i].designation+"<br>&nbsp&nbsp&nbspLocation:"+employee[i].location+"<br>&nbsp&nbsp&nbspSalary:"+employee[i].salary+"<br>&nbsp&nbsp&nbspReporting  Person:"+employee[i].reporting_person);
+      
+         }
+         break;
+
+case "2":
+document.write("<br><br>&nbsp&nbspManagers<br><br>")
+for(i=0;i<n;i++)
+  {
+    
+    if(employee[i].designation=="Manager")
+      {
+        document.write("<br><br>"+employee[i].name+"            <br>&nbsp&nbsp&nbspAge:"+employee[i].age+"<br>&nbsp&nbsp&nbspDesignation:"+employee[i].designation+"<br>&nbsp&nbsp&nbspLocation:"+employee[i].location+"<br>&nbsp&nbsp&nbspSalary:"+employee[i].salary+"<br>&nbsp&nbsp&nbspReporting  Person:"+employee[i].reporting_person);
+      }
+  }
+  break;
+  
+case "3":
+
+for(i=0;i<n;i++)
+  {
+    if(employee[i].designation=="intern")
+     {
+      if(employee[i].location="Ganga")
+      {
+        document.write("<br><br>"+employee[i].name+"            <br>&nbsp&nbsp&nbspAge:"+employee[i].age+"<br>&nbsp&nbsp&nbspDesignation:"+employee[i].designation+"<br>&nbsp&nbsp&nbspLocation:"+employee[i].location+"<br>&nbsp&nbsp&nbspSalary:"+employee[i].salary+"<br>&nbsp&nbsp&nbspReporting  Person:"+employee[i].reporting_person);
+      }
+     }
+  }
+  break;
+case "4":
+for(i=0;i<n;i++)
+  {
+    if(employee[i].salary > 50000)
+      {
+        count++;
+        document.write("<br><br>"+employee[i].name+"            <br>&nbsp&nbsp&nbspAge:"+employee[i].age+"<br>&nbsp&nbsp&nbspDesignation:"+employee[i].designation+"<br>&nbsp&nbsp&nbspLocation:"+employee[i].location+"<br>&nbsp&nbsp&nbspSalary:"+employee[i].salary+"<br>&nbsp&nbsp&nbspReporting  Person:"+employee[i].reporting_person);
+        
+      }
+  }
+document.write("Total count="+count);
+break;
+
+case "5":
+for(i=0;i<n;i++)
+  {
+    if(employee[i].designation=="intern" && employee[i].reporting_person=="Nishin")
+      {
+        document.write("<br><br>"+employee[i].name+"            <br>&nbsp&nbsp&nbspAge:"+employee[i].age+"<br>&nbsp&nbsp&nbspDesignation:"+employee[i].designation+"<br>&nbsp&nbsp&nbspLocation:"+employee[i].location+"<br>&nbsp&nbsp&nbspSalary:"+employee[i].salary+"<br>&nbsp&nbsp&nbspReporting  Person:"+employee[i].reporting_person);
+      }
+  }
+  break;
+  
+case "6":
+for(i=0;i<n;i++)
+  {
+    var len=employee[i].name.length;
+    for(j=0;j<len;j++)
+      {
+        if(employee[i].name[j]=="a"||employee[i].name[j]=="e"||
+           employee[i].name[j]=="i"||employee[i].name[j]=="o"||employee[i].name[j]=="u" )
+          {
+            document.write("<br><br>"+employee[i].name+"            <br>&nbsp&nbsp&nbspAge:"+employee[i].age+"<br>&nbsp&nbsp&nbspDesignation:"+employee[i].designation+"<br>&nbsp&nbsp&nbspLocation:"+employee[i].location+"<br>&nbsp&nbsp&nbspSalary:"+employee[i].salary+"<br>&nbsp&nbsp&nbspReporting  Person:"+employee[i].reporting_person);
+            break;
+          }
+      }
+  }
+  break;
+  
+default:document.write("Invalid choice!");
+  }
+}  

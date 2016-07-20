@@ -1,0 +1,207 @@
+#head1 {
+    background-color: #005689;
+    width: 1500px;
+    height: 180px;
+    color: #dff0d8;
+    margin-top: -20px;
+}
+#head
+{
+	margin-left: 1000px;
+	padding-top: 160px;
+	color:white;
+}
+
+#head2 {
+    height: 50px;
+    margin-top: -168px;
+}
+
+#signin
+{
+	color:white;
+	margin-left: 20px;
+    margin-top: 20px;
+}
+#edition
+{
+	margin-left: 1150px;
+	margin-top:-33px;
+}
+#more
+{
+	margin-left: 1090px;
+	margin-top:-30px;
+}
+.btn-primary {
+    background-color: #005689;
+    border-color: #005689;
+}
+#drop
+{
+	min-width:70px;
+}
+#nav
+{
+    margin-left: -20px;
+    margin-top: 30px;
+    background-color: #00456e;
+    border-color: #00456e;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #00456e;
+}
+
+  
+
+  div.col-sm-9 div 
+  {
+      height: 250px;
+      font-size: medium;
+      width:1200px;
+  }
+
+  #myScrollspy
+  {
+  	width: 15%;
+    margin-left: -180px;
+  }
+  .nav 
+  {
+    
+    margin-top:20px;  
+}
+#first
+{
+	width:500px;
+	margin-left: 20px;
+	height:250px;
+	color:black;
+}
+
+#img
+{
+	width: 484px;
+    margin-left: 3px;
+    margin-top: 1px;
+    height: 280px;
+}
+#img2
+{
+	width: 484px;
+    margin-left: 3px;
+    margin-top: 1px;
+    height: 280px;
+}
+#date,#time
+{
+	color:black;
+}
+
+.col-sm-6 {
+    width: 50%;
+    margin-top: 30px;
+    }
+
+    #foot {
+    background-color: #005689;
+    width: 1500px;
+    height: 180px;
+    color: #dff0d8;
+    margin-top: 4100px;
+    
+}
+#iframe
+{
+	width: 489px;
+    height: 280px;
+}
+#f1
+{
+	width: 450px;
+    margin-top: 625px;
+}
+#f2,#f3,#f4,#f5
+{
+	width: 450px;
+    margin-top: 575px;
+}
+
+label
+{
+color:black;
+}
+#list
+{
+	width:300px;
+}
+#list1,#list2
+{
+	background-color: #005689;
+    border-color: #005689;
+    color: white;
+}
+#list2
+{
+	width:300px;
+}
+#copr
+{
+	color:white;
+	margin-top:40px;
+	margin-left:-110px;
+}
+#png
+{
+	width: 200px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+#im
+{
+	    width: 250px;
+    margin-left: 976px;
+    padding-top: 32px;
+}
+.container-fluid {
+    margin-top: -21px;}
+
+  #h1,#h2,#h3,#h4
+  {
+  	color:#005689;
+  }
+  #h11,#h21,#h31,#h41,#h42
+  {
+  	color:grey;
+  }
+
+  
+  #fb
+  {
+	width:27px;
+	float:right;
+  }
+  #tw
+  {
+	width: 20px;
+    float: right;
+    padding-top: 5px;
+    margin-right: 10px;
+  }
+  #go
+  {
+  	width: 20px;
+    float: right;
+    padding-top: 3px;
+    margin-right: 10px;
+  }
+  #comment
+  {
+  	color: #005689;
+    padding-left: 20px;
+  }
+  title
+  {
+  	color:pink;
+  }

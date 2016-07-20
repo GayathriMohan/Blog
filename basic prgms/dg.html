@@ -1,0 +1,32 @@
+var arr2 =["black","orange","green","blue"]; 
+document.write(str);
+var length = str.length;
+qsort(arr2,0,length) ;
+
+
+ function qsort(arr2,start,end){
+    var pivot,j,temp,i;
+
+     if(start<end){
+         pivot=start;
+         i=start;
+         j=end;
+         while(i<j){
+             while(arr2[i]<=arr2[pivot]&&i<end)
+                 i++;
+             while(arr2[j]>arr2[pivot])
+                 j--;
+             if(i<j){
+                 temp=arr2[i];
+                  arr2[i]=arr2[j];
+                  arr2[j]=temp;
+             }
+         }
+
+         temp=arr2[pivot];
+         arr2[pivot]=arr2[j];
+         arr2[j]=temp;
+         qsort(arr2,start,j-1);
+         qsort(arr2,j+1,end);
+    }
+}
