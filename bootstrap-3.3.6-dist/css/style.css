@@ -74,9 +74,8 @@
 }
 #first
 {
-	width:500px;
+	
 	margin-left: 20px;
-	height:250px;
 	color:black;
 }
 
@@ -117,17 +116,18 @@
 	width: 489px;
     height: 280px;
 }
-#f1
-{
-	width: 450px;
-    margin-top: 625px;
-}
-#f2,#f3,#f4,#f5
-{
-	width: 450px;
-    margin-top: 575px;
-}
 
+#f2,#f3,#f4,#f5,#f1
+{
+	width: 450px;
+    margin-top: 10px;
+}
+#bttn
+{
+    color: white;
+    background-color: #005689;
+    border-color: #005689;
+}
 label
 {
 color:black;
@@ -205,3 +205,15 @@ color:black;
   {
   	color:pink;
   }
+  @media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}      

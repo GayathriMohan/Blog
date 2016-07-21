@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title> My First Blog</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/style.css" >
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
   <script>
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
 });
 </script>
+
   
 </head>
 
@@ -92,7 +96,7 @@ $(document).ready(function(){
                                  <header class="panel-heading">
                                  <h1 id="h1">Politics live with Andrew Sparrow</h1>
                                  <p id="h11"> MPs vote for Trident renewal by majority of 355 as it happened</p>
-                                            <iframe id="iframe" src="https://embed.theguardian.com/embed/video/politics/video/2016/jul/18/theresa-may-parliament-nuclear-strikes-video" width="560" height="315" frameborder="0" allowfullscreen></iframe> </br>
+                                            <iframe class="img-responsive" id="iframe" src="https://embed.theguardian.com/embed/video/politics/video/2016/jul/18/theresa-may-parliament-nuclear-strikes-video" width="560" height="315" frameborder="0" allowfullscreen></iframe> </br>
                                                 <small id="date">08 Dec 2015</small>
                                   </header>
 
@@ -100,7 +104,19 @@ $(document).ready(function(){
                                 <footer>
                                      <p><small id="time">6:26pm</small>           
   
-    								
+    								<div class="container">
+  <button id="bttn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Comment now</button>
+  <div id="demo" class="collapse">
+     <form role="form">
+    <div id="f1" class="form-group">
+    <label for="email">Email:</label><br>
+    <input type="email"><br>
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  </div>
+</div>
 						
                                      <a  href="#"> <img id="fb" src="images/Facebook_icon_2011.png">
                                      </a>
@@ -119,12 +135,25 @@ $(document).ready(function(){
                                  <header class="panel-heading">
                                  <h1 id="h2">Wada</h1>
                                  <p id="h21">Russian government oversaw widespread doping-as it happened</p>
-                                            <img id="img2" src = "images/russia.jpg" width = "420" height = "200" > </br>
+                                            <img class="img-responsive" id="img2" src = "images/russia.jpg" width = "420" height = "200" > </br>
                                                 <small id="date">08 Dec 2015</small>
                                   </header>
                                   <p id="first">As Richard McLaren notes, the Russian ministry of sport decided to introduce a “disappearing positive methodology” plan after the country’s “abysmal” medal tally at the 2010 Winter Olympics in Vancouver, in an attempt to get round doping tests. As the report notes, under this new system – which came into effect in late 2011 – all doping positives found by the Moscow laboratory were reported up to the Russian deputy minister for sport along with the athlete’s name. The order would then come back to either ‘save’ the sample – report it as negative in Wada’s anti-doping management system, allowing that athlete to continue competing while dirty, or ‘quarantine’ it. Foreign athletes, or Russian athletes deemed unpromising, were ordered quarantine by the ministry for sport and therefore went through the regular laboratory analytical process.</p>
                                 <footer>
                                      <p><small id="time">6:26pm</small>
+                                     <div class="container">
+  <button id="bttn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Comment now</button>
+  <div id="demo2" class="collapse">
+     <form role="form">
+    <div id="f2" class="form-group">
+    <label for="email">Email:</label><br>
+    <input type="email"><br>
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  </div>
+</div>
                                      
                                      <a  href="#"> <img id="fb" src="images/Facebook_icon_2011.png">
                                      </a>
@@ -141,7 +170,7 @@ $(document).ready(function(){
                                  <header class="panel-heading">
                                  <h1 id="h3">Tour de France</h1>
                                  <p id="h31">Peter Sagan wins stage 16 photo-finish as it happened</p>
-                                 <iframe id="iframe" src="https://embed.theguardian.com/embed/video/sport/video/2016/jul/18/tour-de-france-2016-peter-sagan-wins-stage-16-video" width="560" height="315" frameborder="0" allowfullscreen></iframe><br>
+                                 <iframe class="img-responsive" id="iframe" src="https://embed.theguardian.com/embed/video/sport/video/2016/jul/18/tour-de-france-2016-peter-sagan-wins-stage-16-video" width="560" height="315" frameborder="0" allowfullscreen></iframe><br>
                                             <!--<img id="img" src = "images/3609.jpg" width = "420" height = "200" > </br>-->
                                                 <small id="date">08 Dec 2015</small>
                                   </header>
@@ -150,6 +179,19 @@ $(document).ready(function(){
 								Instead the stage win in Cancellara’s home town went to the rider who has succeeded “Spartacus” as the man to beat in cobbled one-day races, Peter Sagan, who threw his bike at the line in dramatic style to pip another man of the Classics, Alexander Kristoff. For the third time this year the stage came down to a photo finish.</p>
                                 <footer>
                                      <p><small id="time">6:26pm</small>
+                                     <div class="container">
+  <button id="bttn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Comment now</button>
+  <div id="demo3" class="collapse">
+     <form role="form">
+    <div id="f3" class="form-group">
+    <label for="email">Email:</label><br>
+    <input type="email"><br>
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  </div>
+</div>
                                      
                                      <a  href="#"> <img id="fb" src="images/Facebook_icon_2011.png">
                                      </a>
@@ -166,7 +208,7 @@ $(document).ready(function(){
                                  <header class="panel-heading">
                                  <h1 id="h4">Playing the Trump card</h1>
                                  <p id="h41">Late-night shows go all out to cover conventions</p>
-                                            <img id="img" src = "images/trump.jpg" width = "420" height = "200" > </br>
+                                            <img class="img-responsive" id="img" src = "images/trump.jpg" width = "420" height = "200" > </br>
                                                 <small id="date">08 Dec 2015</small>
                                   </header>
                                   <p id="first">Leaving aside the riots at the 1968 Democratic national convention in Chicago, the precursors to the presidential race have always been rather staid. The most exciting thing to happen is usually a balloon drop or maybe Clint Eastwood talking to an empty chair. In fact, the conventions were so famously boring that back in 2002, the West Wing aired an episode where the fictitious broadcast networks banded together and told the White House they would be limiting the amount of air time they’d be giving them. Then 2016 happened.
@@ -174,6 +216,19 @@ $(document).ready(function(){
 									Thanks to the heated race between Hillary Clinton and Bernie Sanders and the completely insane one-man horror show that is Donald Trump, this year everyone is obsessed with the conventions. Just like on the West Wing, television is reacting accordingly, but with even more coverage than ever before, mostly with late-night talkshows.</p>
                                 <footer>
                                      <p><small id="time">6:26pm</small>
+                                     <div class="container">
+  <button id="bttn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Comment now</button>
+  <div id="demo4" class="collapse">
+     <form role="form">
+    <div id="f4" class="form-group">
+    <label for="email">Email:</label><br>
+    <input type="email"><br>
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  </div>
+</div>
                                      
                                      <a  href="#"> <img id="fb" src="images/Facebook_icon_2011.png">
                                      </a>
@@ -190,12 +245,25 @@ $(document).ready(function(){
                                  <header class="panel-heading">
                                  <h1 id="h4">Watch out for new seasons</h1>
                                  <p id="h42">Return of the favourite series </p>
-                                            <img id="img" src = "images/hbo.jpg" width = "420" height = "200" > </br>
+                                            <img class="img-responsive" id="img" src = "images/hbo.jpg" width = "420" height = "200" > </br>
                                                 <small id="date">08 Dec 2015</small>
                                   </header>
-                                  <p id="first">For those eagerly anticipating the return of HBO’s series about gay men living in San Francisco, this will be a bittersweet experience: it’s an 84-minute movie wrapping up the series after it was cancelled early last year. This finale finds Patrick (Jonathan Groff) returning to the Bay Area for a wedding and catching up with friends Dom (Murray Bartlett) and Agustin (Frankie J Alvarez). After a tremendous amount of dithering, Patrick broke up with his boss-turned-lover Kevin at the end of the second season. Nonetheless, Russell Tovey and his ears make a reappearance here. However, Patrick’s beau from the first season Richie (Raúl Castillo) better show up or this isn’t the send off we need. HBO, Sunday 23 July at 10pm ET.</p>
+                                  <p class="img-responsive" id="first">For those eagerly anticipating the return of HBO’s series about gay men living in San Francisco, this will be a bittersweet experience: it’s an 84-minute movie wrapping up the series after it was cancelled early last year. This finale finds Patrick (Jonathan Groff) returning to the Bay Area for a wedding and catching up with friends Dom (Murray Bartlett) and Agustin (Frankie J Alvarez). After a tremendous amount of dithering, Patrick broke up with his boss-turned-lover Kevin at the end of the second season. Nonetheless, Russell Tovey and his ears make a reappearance here. However, Patrick’s beau from the first season Richie (Raúl Castillo) better show up or this isn’t the send off we need. HBO, Sunday 23 July at 10pm ET.</p>
                                 <footer>
                                      <p><small id="time">6:26pm</small>
+                                     <div class="container">
+  <button id="bttn" type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo5">Comment now</button>
+  <div id="demo5" class="collapse">
+     <form role="form">
+    <div id="f5" class="form-group">
+    <label for="email">Email:</label><br>
+    <input type="email"><br>
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+  </div>
+</div>
                                      
                                      <a  href="#"> <img id="fb" src="images/Facebook_icon_2011.png">
                                      </a>
@@ -209,7 +277,7 @@ $(document).ready(function(){
                       </section>
      
     </div><!-- col sm 9-->
-    <div class="col-sm-3">
+    <!--<div class="col-sm-3">
     <form role="form">
     <div id="f1" class="form-group">
     <label for="email">Email:</label><br>
@@ -251,7 +319,7 @@ $(document).ready(function(){
     </div>
   </form>
 
-    </div>
+    </div>-->
   </div><!--row-->
 </div><!--container-->
 
